@@ -55,7 +55,7 @@ func podFitsOnNode(pod *v1.Pod, node v1.Node) (bool, []string, error) {
 		if err != nil {
 			return false, nil, err
 		}
-		fits = fits && fit
+		fits = fits && fit // 必须都每次都满足条件才能满足过滤条件
 		failReasons = append(failReasons, failures...)
 	}
 	return fits, failReasons, nil
