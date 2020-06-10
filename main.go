@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/cnych/sample-scheduler-extender/controller"
+	"./controller"
 	"log"
 	"math/rand"
 	"net/http"
