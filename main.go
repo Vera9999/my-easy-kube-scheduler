@@ -1,7 +1,7 @@
 package main
 
 import (
-	"./controller"
+	"github.com/kytchett/my-easy-kube-scheduler/controller"
 	"log"
 	"math/rand"
 	"net/http"
