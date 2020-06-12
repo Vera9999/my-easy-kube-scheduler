@@ -1,4 +1,4 @@
-module github.com/cnych/sample-scheduler-extender
+module github.com/kytchett/my-easy-kube-scheduler
 
 go 1.13
 
